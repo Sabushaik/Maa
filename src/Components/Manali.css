@@ -1,0 +1,54 @@
+.horizontal-row-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    
+    border-radius: 8px;
+  }
+.SabuCen
+{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 500px;
+}
+  .sabuDiv
+  {
+justify-content: center;
+text-align: center;
+color:white;
+font-family: 'Times New Roman';
+font-size: x-large;
+width:100%;
+height: 100px;
+background-color: black;
+border-radius: 20px;
+
+  }
+
+  .h1sabu
+  {
+    margin-top: 10px;
+
+  }
+  .text-container {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  

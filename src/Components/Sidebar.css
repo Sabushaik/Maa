@@ -1,0 +1,70 @@
+/* Sidebar container styles */
+.sidebar {
+    width: 250px; /* Adjust width as needed */
+    height: 450px; /* Full height of parent container */
+    position: fixed; /* Fixed position to keep it always visible */
+    top: 0; /* Position from the top */
+    left: -250px; /* Initially hide the sidebar off-screen */
+    background-color: #80cab0; /* Sidebar background color */
+    overflow-y: auto; /* Enable scrolling if content exceeds height */
+    transition: left 0.3s ease; /* Smooth transition for sidebar animation */
+
+  }
+  
+  .sidebar.open {
+    left: 0; /* Show sidebar when 'open' class is present */
+  }
+  
+  /* Hamburger button styles */
+  .hamburger {
+    position: fixed;
+    background-color: black;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+    z-index: 1000;
+    color: black; /* Ensure hamburger button is above other content */
+  }
+  
+  .line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    transition: transform 0.3s ease;
+    color: black; /* Smooth transition for hamburger animation */
+  }
+  
+  .open .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .open .line:nth-child(2) {
+    opacity: 0; /* Hide middle line when sidebar is open */
+  }
+  
+  .open .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  /* Style for the list items */
+  .sidebar ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Full width clickable area */
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #f48b30; /* Hover background color */
+  }
+  

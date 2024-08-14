@@ -1,0 +1,56 @@
+.box:hover
+{
+    transform: scale(1.3);
+    z-index: 1;
+
+}
+.box
+{  
+    margin:0 10px;
+    box-shadow: 0 0 20 2 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction:row;
+    transition: 1s;
+}
+.full-width-div {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width */
+}
+.row-div {
+    display: flex;
+    flex-direction: row; /* This is the default, so it's optional */
+    justify-content: flex-start; /* Align items to the start of the container */
+    align-items: center; /* Align items vertically in the center */
+}
+.row-div2 {
+    display: flex;
+    flex-direction: row;
+    gap:150px; /* This is the default, so it's optional */
+    justify-content: flex-start; /* Align items to the start of the container */
+    align-items: center; /* Align items vertically in the center */
+}
+.sabu
+{
+  
+
+   
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.box img{
+    display:block;
+    border-radius: 5px;
+
+
+}
+.some
+{
+    
+    opacity: 0; /* Start with opacity 0 */
+    animation: slide-in 0.8s ease forwards; /* Animation to slide in */
+    border-radius: 10px;
+}

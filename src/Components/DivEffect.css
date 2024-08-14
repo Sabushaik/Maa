@@ -1,0 +1,9 @@
+.transition-div {
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Define transition effect */
+  }
+  
+  .transition-div.visible {
+    opacity: 1;
+  }
+  

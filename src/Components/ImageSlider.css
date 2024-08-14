@@ -1,0 +1,31 @@
+.image-slider {
+    width: 1400px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    white-space: nowrap; /* Prevent line breaks */
+    padding: 20px 0;
+  }
+  
+  .image-container {
+    display: inline-flex; /* Display images in a row */
+  }
+  
+  .image-slide {
+    margin-right: 20px; /* Spacing between images */
+    text-align: center;
+  }
+  
+  .image-slide img {
+    width: 700px; /* Adjust image width as needed */
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .caption {
+    margin-top: 8px;
+    font-size: 32px;
+    color:red;
+    font-style: bold;
+
+  }
+  

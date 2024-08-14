@@ -1,0 +1,49 @@
+.TApp {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .TApp-header {
+    background-color: #282c34;
+    height: 140px;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .TApp-header select {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  .travel-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .travel-card {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .travel-details {
+    padding: 10px;
+  }
+  
+  .travel-details h3 {
+    margin: 0;
+  }
+  
+  .travel-details p {
+    margin: 5px 0;
+  }
+  

@@ -1,0 +1,39 @@
+.transition-container {
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap:20px;
+  }
+  .boxsabu {
+    height: 400px;
+    width: 400px;
+    
+    margin-right:50px; /* Horizontal gap between boxes */
+    opacity: 0; /* Start with opacity 0 */
+    animation: slide-in 0.8s ease forwards; /* Animation to slide in */
+  }
+  
+  /* Different sizes and colors */
+  .small { background-color:white;  width: 200px; height: 200px; }
+  .medium { background-color: #131212; }
+  .large { background-color: white;  width: 400px; height: 400px; margin-left: auto;}
+  .huge { background-color: white;  width: 420px; height: 420px; margin-right: auto; border-radius:30px   }
+  .giant { background-color: #050405; }
+  
+  /* Animation keyframes */
+  @keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
